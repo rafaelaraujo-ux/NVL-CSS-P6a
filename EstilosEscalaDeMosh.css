@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+caption{
+	padding-bottom: 20px;
+	font-size: 15pt;
+	font-weight: bold;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th{
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #f6f6f6;
+}
+th{
+	background-color:#eae9e9;
+	padding: 10px 0;
+}
+
+img{
+	width: 50px;
+	height: auto;
+}
+
+/*Estilo aplicado a la primera columna*/
+td.c1{
+	background-color:#fff;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c2{
+	background-color:#eee;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c3{
+	background-color:#ddd;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c4{
+	background-color:#ccc;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c5{
+	background-color:#bcbcbc;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c6{
+	background-color:#acacac;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c7{
+	background-color:#9c9c9c;
+	color: #fff;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c8{
+	background-color:#808080;
+	color: #fff;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c9{
+	background-color:#656565;
+	color: #fff;
+	text-align: right;
+	padding-right: 20px;
+}
+td.c10{
+	background-color:#000000;
+	color: #fff;
+	text-align: right;
+	padding-right: 20px;
+}
+/*FIN – Estilo aplicado a la primera columna*/
+
+
+/*Se aplica a la segunda columna, a los nombres de los minerasles*/
+.m{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*FIN – Se aplica a la segunda columna, a los nombres de los minerasles*/
+
+
+/*Este es el ID para la DIV*/
+#centrar{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*FIN – Este es el ID para la DIV*/
